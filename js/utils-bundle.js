@@ -1,5 +1,6 @@
 module.exports = {
     arrays: require('./arrays'),
     url: require('./url'),
-    util: require('./util')
+    dom: require('./dom'),
+    util: require('./util'),
 };
