@@ -1,11 +1,12 @@
 module.exports = {
     getTextWithoutChildren: function(element, notrim) {
-        let result = element.clone().children().remove().text();
+        let result = element.clone();
+        result.children().remove();
 
         if (typeof notrim !== 'undefined' && notrim === true) {
-            return result;
+            return result.text();
         } else {
-            return result.trim();
+            return result.text().trim();
         }
     },
 };
