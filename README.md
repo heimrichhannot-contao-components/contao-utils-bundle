@@ -12,5 +12,5 @@ Simple plugin to toggle elements on scroll. The styling to hide and show element
 
 | Attributes  | Description  |
 |---|---|
-| data-offset | Set a custom offset, can also be an valid CSS-Selector like `#header` |
+| data-offset | Set a minimum offset to start hide element (body scrollTop), can also be an valid CSS-Selector like `#header` |
 | data-body-class | Define a custom CSS class that should be toggled on body element on hide/show element. |

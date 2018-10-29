@@ -29,7 +29,7 @@ ScrollToggle.prototype.registerEvents = function () {
 
 ScrollToggle.prototype.toggle = function (element, event) {
     let offsetTopElement = element.getAttribute('data-offset') || element.scrollHeight || element.offsetHeight;
-    let offsetTopWindow = document.documentElement.scrollTop || document.body.scrollTo;
+    let offsetTopWindow = document.documentElement.scrollTop || document.body.scrollTop;
     let bodyClass = element.getAttribute('data-body-class');
 
     if (typeof offsetTopElement === 'string') {
