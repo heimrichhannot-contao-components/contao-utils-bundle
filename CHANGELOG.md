@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2018-10-29
+
+### Added
+- `scroll-toggle` plugin added
+
 ## [1.0.3] - 2018-04-24
 
 ### Fixed
