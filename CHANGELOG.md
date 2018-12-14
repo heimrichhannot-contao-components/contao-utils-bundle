@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2018-12-14
+
+### Added
+- dom.scrollTo
+- dom.elementInViewport
+
 ## [1.0.5] - 2018-10-29
 
 ### Removed
