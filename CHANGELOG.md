@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.1] - 2018-12-19
+
+### Added
+- EventUtil::addDynamicEventListener()
+
 ## [1.2.0] - 2018-12-19
 
 ### Added
