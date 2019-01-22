@@ -26,10 +26,19 @@ class DomUtil {
         let scrollPosition = (rect.top + window.pageYOffset - offset);
         setTimeout(() => {
             if (!this.elementInViewport(element) || force === true)
-                window.scrollTo({
-                    'top': scrollPosition,
-                    'behavior': 'smooth',
-                });
+            {
+                var isSmoothScrollSupported = 'scrollBehavior' in document.documentElement.style;
+                if (isSmoothScrollSupported)
+                {
+                    window.scrollTo({
+                        'top': scrollPosition,
+                        'behavior': 'smooth',
+                    });
+                }
+                else {
+                    window.scrollTo(0, scrollPosition);
+                }
+            }
         }, delay);
     }
 

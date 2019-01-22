@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.1] - 2019-01-22
+
+### Fixed
+- `DomUtil.scrollTo` now compatible with IE
+
 ## [1.3.0] - 2019-01-08
 
 ### Changed
