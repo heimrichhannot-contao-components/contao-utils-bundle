@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5.2] - 2019-01-23
+
+### Fixed
+- readme respecting new scope
+
 ## [1.5.1] - 2019-01-23
 
 ### Fixed
