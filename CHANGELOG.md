@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5.0] - 2019-01-23
+
+### Added
+- npm scope @hundh
+
 ## [1.4.0] - 2019-01-23
 
 ### Changed
