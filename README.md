@@ -6,4 +6,4 @@ This package contains the frontend assets of the composer bundle [heimrichhannot
 
 Install 
 
-`yarn add contao-utils-bundle`
+`yarn add @hundh/contao-utils-bundle`
