@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5.3] - 2019-01-23
+
+### Fixed
+- export `UtilsBundle` name
+
+### Changed
+- updated readme
+
 ## [1.5.2] - 2019-01-23
 
 ### Fixed
