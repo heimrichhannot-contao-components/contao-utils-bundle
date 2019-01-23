@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] - 2019-01-23
+
+### Changed
+- refactored util classes in own files
+
 ## [1.3.1] - 2019-01-22
 
 ### Fixed
