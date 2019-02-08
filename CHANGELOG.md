@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5.5] - 2019-02-08
+
+### Fixed
+- `domUtil::getAllParentNodes()`
+
+## [1.5.4] - 2019-01-23
+
+### Fixed
+- export `UtilsBundle` name to `utilsBundle`
+
 ## [1.5.3] - 2019-01-23
 
 ### Fixed

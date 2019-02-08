@@ -53,7 +53,7 @@ class DomUtil {
         );
     }
 
-    static getAllParentNodes(node, callback) {
+    static getAllParentNodes(node) {
         var parents = [];
 
         while (node) {
@@ -61,7 +61,11 @@ class DomUtil {
             node = node.parentNode;
         }
 
-        ArrayUtil.removeFromArray(document, parents);
+        for (var i = 0; i < parents.length; i++) {
+            if (parents[i] === document) {
+                parents.splice(i, 1);
+            }
+        }
 
         return parents;
     }

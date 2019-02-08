@@ -4,7 +4,7 @@ import EventUtil from './event-util'
 import UrlUtil from './url-util'
 import GeneralUtil from './general-util'
 
-let UtilsBundle = {
+let utilsBundle = {
     array: ArrayUtil,
     dom: DomUtil,
     event: EventUtil,
@@ -12,10 +12,10 @@ let UtilsBundle = {
     util: GeneralUtil
 };
 
-window.utilsBundle = UtilsBundle;
+window.utilsBundle = utilsBundle;
 
 export {
-    UtilsBundle,
+    utilsBundle,
     ArrayUtil,
     DomUtil,
     EventUtil,
