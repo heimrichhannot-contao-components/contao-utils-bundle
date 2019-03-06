@@ -26,7 +26,7 @@ class EventUtil {
             }
 
             parents.reverse().forEach(function (item) {
-                if (item && item.matches(selector)) {
+                if (item && typeof item.matches === 'function' && item.matches(selector)) {
                     callback(item, e);
                 }
             });
