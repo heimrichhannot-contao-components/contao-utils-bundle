@@ -1,3 +1,4 @@
+import './polyfills';
 import ArrayUtil from './array-util'
 import DomUtil from './dom-util'
 import EventUtil from './event-util'

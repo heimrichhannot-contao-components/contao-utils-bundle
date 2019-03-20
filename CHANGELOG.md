@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.7.0] - 2019-03-20
+
+### Added
+- often used polyfills
+
 ## [1.6.1] - 2019-03-06
 
 ### Fixed
