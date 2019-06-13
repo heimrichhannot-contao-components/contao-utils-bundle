@@ -1,16 +1,18 @@
 import './polyfills';
-import ArrayUtil from './array-util'
-import DomUtil from './dom-util'
-import EventUtil from './event-util'
-import UrlUtil from './url-util'
-import GeneralUtil from './general-util'
+import ArrayUtil from './array-util';
+import DomUtil from './dom-util';
+import EventUtil from './event-util';
+import UrlUtil from './url-util';
+import GeneralUtil from './general-util';
+import AjaxUtil from './ajax-util';
 
 let utilsBundle = {
     array: ArrayUtil,
     dom: DomUtil,
     event: EventUtil,
     url: UrlUtil,
-    util: GeneralUtil
+    util: GeneralUtil,
+    ajax: AjaxUtil
 };
 
 window.utilsBundle = utilsBundle;
@@ -21,5 +23,6 @@ export {
     DomUtil,
     EventUtil,
     GeneralUtil,
-    UrlUtil
+    UrlUtil,
+    AjaxUtil
 }

@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.8.0] - 2019-06-13
+
+### Added
+- ajax util
+
 ## [1.7.0] - 2019-03-20
 
 ### Added
